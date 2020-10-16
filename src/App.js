@@ -3,8 +3,13 @@ import axios from 'axios';
 import { fetchData } from './api';
 import Cards from './components/Cards';
 import Header from './components/Header';
+import Themap from './components/Themap';
 import './index.css';
+
+
+
 class App extends React.Component {
+  
   state = {
     data: {},
   }
@@ -22,6 +27,9 @@ class App extends React.Component {
       <>
       <Header />
       <Cards data={data}/>
+      <Themap 
+      
+      />
       </>
     )
   }
