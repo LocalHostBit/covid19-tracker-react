@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: .5rem;
+    background-color: #282C34;
+    min-height: 10vh;
+}
+
+
+.header__logo {
+    height: 50px;
+    background-color: #282C34;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    background-color: #282C34;
+}

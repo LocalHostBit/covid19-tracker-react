@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.cards {
+    border: 1px solid #212B36;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin: 0 2% !important;
+    background-color: #212B36;
+}
+
+.color_infected {
+    color: #D59D2E;
+    background-color: #212B36;
+}
+
+.color_recovered {
+    color: #2F8359;
+    background-color: #212B36;
+}
+
+.color_deaths {
+    color: #E43E3E;
+    background-color: #212B36;
+}
+
+.infected {
+   border-bottom: 7px solid rgba(0, 0, 255, 0.5);
+}
+
+
+.recovered {
+    border-bottom: 7px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+    border-bottom: 7px solid rgba(255, 0, 0, 0.5);
+}
+
+.cards__title {
+    font-size: 18px;
+    line-height: 2em;
+    text-align: center;
+    font-weight: 400;
+    background-color: #212B36;
+}
+
+.cards__data {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    background-color: #212B36;
+}
+
+.date__dated {
+   background-color: #fef6fb;
+   border-radius: 50px;
+   padding: 0.3em;
+   text-align: center;
+   font-weight: 100;
+   background-color: #212B36;
+}
+
+.date__info {
+    margin-top: 0.2em;
+    text-align: center;
+    font-size: 14px;
+    background-color: #212B36;
+}
+
+@media (max-width: 700px) {
+    .container {
+      display: block;
+    }
+  }
