@@ -19,3 +19,15 @@
     height: 100%;
 }
 
+.leaflet-marker-icon {
+    background-color: transparent;
+}
+
+.leaflet-popup .leaflet-popup-content-wrapper{
+    background-color: #19212A;
+}
+
+.flagicon{
+    width: 200px;
+}
+

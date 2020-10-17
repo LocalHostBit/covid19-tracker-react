@@ -34,7 +34,7 @@ const Cards = ({ data : {confirmed, recovered, deaths, lastUpdate}}) => {
                     />
                 </h3>
                 <p className='date__dated'>{new Date(lastUpdate).toDateString()}</p>
-                <p className='date__info'>Number of active cases of Covid-19</p>
+                <p className='date__info'>Number of recovered cases of Covid-19</p>
             </div>
             <div className='cards deaths'>
                 <h2 className='cards__title'>Deaths</h2>
@@ -48,7 +48,7 @@ const Cards = ({ data : {confirmed, recovered, deaths, lastUpdate}}) => {
                     />
                 </h3>
                 <p className='date__dated'>{new Date(lastUpdate).toDateString()}</p>
-                <p className='date__info'>Number of active cases of Covid-19</p>
+                <p className='date__info'>Number of deaths cases of Covid-19</p>
             </div>
         </div>
     )

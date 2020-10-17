@@ -4,6 +4,7 @@ import { fetchData } from './api';
 import Cards from './components/Cards';
 import Header from './components/Header';
 import Themap from './components/Themap';
+import Darkmode from './components/Darkmode';
 import './index.css';
 
 
@@ -26,6 +27,7 @@ class App extends React.Component {
     return (
       <>
       <Header />
+      <Darkmode />
       <Cards data={data}/>
       <Themap 
       

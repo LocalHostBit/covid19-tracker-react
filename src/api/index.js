@@ -19,4 +19,4 @@ export const fetchData = async () => {
   } catch (error) {
     
   }
-}
+};
