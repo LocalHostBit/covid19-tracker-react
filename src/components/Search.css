@@ -1,0 +1,33 @@
+.form {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.input {
+    width: 600px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+
+.form__label {
+    background-color: white;
+    color: black;
+    font-size: 1.3em;
+}
+
+.form__control {
+    background-color: #f1f6f9;
+    color: black;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
