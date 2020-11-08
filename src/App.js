@@ -9,6 +9,10 @@ import Darkmode from './components/Darkmode';
 import Button from './components/Button';
 import Recomended from './components/Recomended';
 import Search from './components/Search';
+import LottieVirus from './components/LottieVirus';
+import LottieCovid from './components/LottieCovid';
+import Lottie from 'react-lottie';
+
 import './index.css';
 
 import Container from 'react-bootstrap/Container'
@@ -35,6 +39,7 @@ class App extends React.Component {
         <Header />
         <Darkmode />
         <Cards data={data}/>
+        <LottieVirus height={500} width={500}/>
         <Container fluid>
         <Search />
         </Container>
@@ -47,6 +52,7 @@ class App extends React.Component {
           </Route>
         </Switch>
       <Button />
+      <LottieCovid height={500} widht={500}/>
       <Recomended />
       </Router>
       </>
